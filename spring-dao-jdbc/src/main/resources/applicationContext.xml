@@ -12,22 +12,22 @@
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName"
-                  value="com.mysql.cj.jdbc.Driver" />
+                  value="com.mysql.cj.jdbc.Driver"/>
         <property name="url"
-                  value="jdbc:mysql://localhost:3307/springdaojdbc" />
-        <property name="username" value="root" />
-        <property name="password" value="root" />
+                  value="jdbc:mysql://localhost:3306/springdaojdbc"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
     </bean>
 
-    <context:component-scan base-package="com.rays" />
+    <context:component-scan base-package="com.rays"/>
 
     <!-- Configure Transaction Management -->
-    <tx:annotation-driven />
+    <tx:annotation-driven/>
 
     <!-- Define Transaction Manager Bean -->
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 
 </beans>

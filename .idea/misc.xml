@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-core/pom.xml" />
         <option value="$PROJECT_DIR$/spring-dao-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-dao-hibernate/pom.xml" />
       </list>
     </option>
   </component>
