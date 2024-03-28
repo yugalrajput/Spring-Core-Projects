@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-dao-jdbc" />
-        <module name="spring-dao-hibernate" />
         <module name="spring-core" />
+        <module name="spring-dao-hibernate" />
+        <module name="spring-dao-aop" />
       </profile>
     </annotationProcessing>
   </component>
